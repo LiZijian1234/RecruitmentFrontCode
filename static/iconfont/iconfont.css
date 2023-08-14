@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3398468 */
+  src: url('@/static/iconfont/iconfont.woff2?t=1655355741101') format('woff2'),
+       url('@/static/iconfont/iconfont.woff?t=1655355741101') format('woff'),
+       url('@/static/iconfont/iconfont.ttf?t=1655355741101') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-renxiang:before {
+  content: "\e609";
+}
+
+.icon-zu132:before {
+  content: "\e604";
+}
+
+.icon-dianzan:before {
+  content: "\e602";
+}
+
+.icon-cai:before {
+  content: "\e603";
+}
+
+.icon-dianzan_kuai:before {
+  content: "\ec8c";
+}
+
+.icon-cai1:before {
+  content: "\e68f";
+}
+
+.icon-tianjia_huaban:before {
+  content: "\e619";
+}
+
+.icon-xingjibie:before {
+  content: "\e68a";
+}
+
+.icon-fabuxinxi:before {
+  content: "\e60c";
+}
+
+.icon-tianjiatupian_huaban:before {
+  content: "\e62c";
+}
+
+.icon-a-ziyuan676:before {
+  content: "\e799";
+}
+
+.icon-shoucang1:before {
+  content: "\e601";
+}
+
+.icon-dianhua:before {
+  content: "\e61b";
+}
+
+.icon-nan:before {
+  content: "\e6a6";
+}
+
+.icon-liwu:before {
+  content: "\e685";
+}
+
+.icon-liaotianduihua:before {
+  content: "\e8bc";
+}
+
+.icon-fenxiang:before {
+  content: "\e611";
+}
+
+.icon-gerentouxiang:before {
+  content: "\eb24";
+}
+
+.icon-camera:before {
+  content: "\e613";
+}
+
+.icon-kefu:before {
+  content: "\ec2e";
+}
+
+.icon-shouye:before {
+  content: "\e630";
+}
+
+.icon-shoucang:before {
+  content: "\e666";
+}
+
+.icon-shaixuan:before {
+  content: "\e662";
+}
+
+.icon-xueshimao:before {
+  content: "\e71b";
+}
+
+.icon-huobao:before {
+  content: "\e649";
+}
+
+.icon-wodetoudi:before {
+  content: "\e60b";
+}
+
+.icon-24gf-building2:before {
+  content: "\e838";
+}
+
+.icon-zhaopin:before {
+  content: "\e627";
+}
+
+.icon-shezhi:before {
+  content: "\e864";
+}
+
+.icon-police:before {
+  content: "\e600";
+}
+
+.icon-resume:before {
+  content: "\e655";
+}
+
+.icon-boshimao:before {
+  content: "\e612";
+}
+
+.icon-tianping:before {
+  content: "\e730";
+}
+
+.icon-jianli:before {
+  content: "\e663";
+}
+
+.icon-a-youjianchakanyoujianfasongyoujianshouyoujian-07:before {
+  content: "\e918";
+}
+

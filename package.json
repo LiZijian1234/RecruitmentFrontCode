@@ -1,0 +1,38 @@
+{
+  "devDependencies": {
+    "postcss-px-to-viewport": "^1.1.1",
+	"@babel/core": "^7.16.7",
+	"@babel/eslint-parser": "^7.16.5",
+	"eslint": "^7.32.0",
+	"eslint-config-airbnb-base": "^14.2.1",
+	"eslint-config-tencent": "^1.0.1",
+	"eslint-plugin-import": "^2.23.4"
+  },
+  "name": "recruitment-uniapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "picocolors": "^1.0.0",
+    "source-map-js": "^1.0.2",
+    "nanoid": "^3.3.4",
+    "postcss": "^8.4.14",
+    "object-assign": "^4.1.1",
+	"aegis-mp-sdk": "^1.24.55",
+	"aegis-web-sdk": "^1.35.23",
+	"aegis-weex-sdk": "^1.24.46",
+	"cos-wx-sdk-v5": "^1.0.10",
+	"tim-js-sdk": "^2.17.0",
+	"tim-upload-plugin": "^1.0.4",
+	"tim-wx-sdk": "^2.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build:github": "node ./utils/cp-files-for-github.js",
+	"lint": "./node_modules/.bin/eslint ./",
+	"fix": "./node_modules/.bin/eslint --fix ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

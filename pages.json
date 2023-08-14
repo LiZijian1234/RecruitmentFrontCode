@@ -1,0 +1,408 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "举贤招聘"
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#7573e6"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style" :
+			{
+			    "navigationBarTitleText": "消息",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/jobMap/jobMap",
+			"style" :
+			{
+			    "navigationBarTitleText": "岗位地图",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index/search",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "搜索",
+			    "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#7573e6"
+			}
+		},
+		{
+		    "path" : "pages/index/jobDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "招聘详情",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#7573e6"
+		    }
+		},
+		{
+		    "path" : "pages/index/compDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "企业详情",
+		        "enablePullDownRefresh": true
+		    }
+		}
+    ],
+	"subPackages": [{
+		"root": "pages_HR",
+		"pages": [
+			{
+				"path": "HR/corporInfo",
+				"style" :
+				{
+				    "navigationBarTitleText": "公司介绍",
+				    "enablePullDownRefresh": true
+					
+				}
+			},
+			{
+				"path": "HR/HRAuth",
+				"style" :
+				{
+				    "navigationBarTitleText": "HR认证",
+				    "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+				}
+			},
+			{
+				"path": "HR/HRBackManage",
+				"style" :                                                                                    
+				{
+					"navigationBarTitleText": "HR后台管理系统",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+				}
+			},
+			{
+				"path": "HR/candidate/JobList",
+				"style" :                                                                                    
+				{
+					"navigationBarTitleText": "岗位列表",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+				}
+			},
+			{
+			    "path" : "HR/job/HRJobManage",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "职位管理",
+			        "enablePullDownRefresh": true,
+					"navigationBarBackgroundColor": "#7573e6"
+			    }
+			},
+			{
+			    "path" : "HR/candidate/HRcandidate",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "候选人管理",
+			        "enablePullDownRefresh": true
+					
+			    }
+			},
+			{
+			    "path" : "HR/center/HRcenter",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "HR中心",
+			        "enablePullDownRefresh": true
+					
+			    }
+			},
+			{
+			    "path" : "HR/job/JobDetail",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": true
+					
+			    }
+			},
+			{
+			    "path" : "HR/job/jobIntro",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "岗位介绍",
+			        "enablePullDownRefresh": true
+					
+			    }
+			},
+			{
+			    "path" : "HR/job/remainJobNum",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "剩余人数",
+			        "enablePullDownRefresh": true
+					
+			    }
+			},
+			{
+			    "path" : "HR/candidate/candidateDetail",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": true
+					
+			    }
+			},{
+				"path" : "HR/job/viewJob",
+				"style" :                                                                                    
+				{
+				    "navigationBarTitleText": "预览职位",
+				    "enablePullDownRefresh": true
+				}
+			}
+		]
+	},
+	{
+		"root": "pages_message",
+		"pages": [
+			{
+				"path": "message/conversation/conversation",
+				"style" :
+				{
+				    "navigationBarTitleText": "会话列表",
+				    "enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message/TUI-Chat/chat",
+				"style" :
+				{
+				    "navigationBarTitleText": "",
+				    "enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message/EvaluateList",
+				"style" :
+				{
+				    "navigationBarTitleText": "公司评价",
+				    "enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message/WriteEvaluate",
+				"style" :
+				{
+				    "navigationBarTitleText": "填写评价",
+				    "enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message/morePartTimeJob",
+				"style" :
+				{
+				    "navigationBarTitleText": "日结招聘",
+				    "enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message/kefu",
+				"style" :
+				{
+				    "navigationBarTitleText": "联系客服",
+				    "enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message/swiperDetail",
+				"style" :
+				{
+				    "navigationBarTitleText": "",
+				    "enablePullDownRefresh": false
+				}
+			}
+		]
+	},
+	{
+		"root": "pages_mine",
+		"pages": [
+			{
+			    "path" : "mine/completeResume",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "完善简历",
+			        "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+			    }
+			    
+			},
+			{
+			    "path" : "mine/skillWrite",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "技能与工作经历",
+			        "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+			    }
+			    
+			},
+			{
+			    "path" : "mine/resumeUpload",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "我的附件",
+			        "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+			    }
+			    
+			},
+			{
+			    "path" : "mine/myFavorite",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "我的收藏"
+			    }
+			},
+			{
+			    "path" : "mine/setting",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "设置字体大小"
+			    }
+			},
+			{
+			    "path" : "mine/resumeOnline",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "在线简历",
+			        "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#7573e6"
+			    }
+			    
+			},
+			{
+			    "path" : "mine/postReply",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "投递反馈"
+			    }
+			},
+			
+			{
+			    "path" : "mine/goToSetting",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "设置中心"
+			    }
+			},
+			{
+			    "path" : "mine/yingZhang",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "营长后台服务系统"
+			    }
+			},
+			{
+			    "path" : "mine/myReward",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "我的奖金"
+			    }
+			},
+			{
+			    "path" : "mine/myRecommend",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "我的推荐"
+			    }
+			},
+			{
+			    "path" : "mine/callService",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "联系客服"
+			    }
+			},
+			{
+			    "path" : "mine/yingZhangAuth",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "报名营长"
+			    }
+			},
+			{
+			    "path" : "mine/resumeHelp/resumeHelp",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "简历辅导"
+			    }
+			},
+			{
+			    "path" : "mine/skillTrain/skillTrain",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "技能培训"
+			    }
+			},
+			{
+			    "path" : "mine/fangzha/fangzha",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "防诈宣传"
+			    }
+			},
+			{
+			    "path" : "mine/lawConsult/lawConsult",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "法律咨询"
+			    }
+			}
+		]
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "举贤招聘",
+		"navigationBarBackgroundColor": "#7573e6",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#303133",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/home.png",
+	        "selectedIconPath": "static/home-active.png",
+	        "text": "主页"
+	    },{
+		    "pagePath": "pages/jobMap/jobMap",
+		    "iconPath": "static/map.png",
+		    "selectedIconPath": "static/map-active.png",
+		    "text": "岗位地图"
+		},
+		{
+		    "pagePath": "pages/message/message",
+		    "iconPath": "static/message.png",
+		    "selectedIconPath": "static/message-active.png",
+		    "text": "消息"
+		},
+		{
+	        "pagePath": "pages/mine/index",
+	        "iconPath": "static/mine.png",
+	        "selectedIconPath": "static/mine-active.png",
+	        "text": "我的"
+	    }]
+	}
+}
